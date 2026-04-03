@@ -10,7 +10,7 @@ int main() {
     scanf("%s", student1.name);
     scanf("%d", &student1.age);
     scanf("%f", &student1.average);
-    printf("\nИнформация о студенте:\n");
-    printf("%s, возраст %d лет, средний балл: %.2f\n", 
+    printf("\nСтудент:\n");
+    printf("%s, возраст %d, avg балл: %f\n", 
            student1.name, student1.age, student1.average);
 }
