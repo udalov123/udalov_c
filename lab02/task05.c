@@ -20,6 +20,6 @@ int main() {
         default:        printf("Неизвестный день\n");
     }
 
-    printf("День события: %d (пятница)\n", event.day);
+    printf("День, когда случится конец света: %d (пятница)\n", event.day);
 
 }

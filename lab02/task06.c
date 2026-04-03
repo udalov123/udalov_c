@@ -24,5 +24,5 @@ int main() {
     c.data.c = 'Z';
     printf("Тип: char, значение: %c\n", c.data.c);
 
-    printf("\nРазмер union Data: %zu байт\n", sizeof(union Data));
+    printf("\nРазмер%zu байт\n", sizeof(union Data));
 }
